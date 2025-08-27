@@ -7,7 +7,7 @@ The website is built using **basic HTML only**. No CSS or advanced styling has b
 
 ---
 
-## 📌 Pages in the Website
+##  Pages in the Website
 
 * **Home (index.html)**
   Welcome page with a short intro about Bellema.
@@ -43,7 +43,7 @@ The website is built using **basic HTML only**. No CSS or advanced styling has b
 
 ---
 
-## 📂 Folder Structure
+##  Folder Structure
 
 ```
 Bellema-Website/
@@ -63,7 +63,7 @@ Bellema-Website/
 
 ---
 
-## 👤 Credits
+##  Credits
 
 * Website created for **Bellema (Pretoria, South Africa)**.
 * Built in plain HTML, easy to update and expand later.
