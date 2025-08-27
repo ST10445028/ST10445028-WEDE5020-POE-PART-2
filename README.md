@@ -35,7 +35,7 @@ The website is built using **basic HTML only**. No CSS or advanced styling has b
 
 ---
 
-## 🛠️ How it Works
+##  How it Works
 
 1. Users can browse the site to learn about Bellema and its services.
 2. They can fill in forms (like enquiry or personal shopper) to request help.
