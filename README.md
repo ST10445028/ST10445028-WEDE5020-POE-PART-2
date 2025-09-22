@@ -56,6 +56,7 @@ For Part 2, **CSS styling and responsiveness** were introduced to improve usabil
 
 ## Folder Structure
 
+```
 Bellema-Website/
 │
 ├── css/
@@ -96,3 +97,5 @@ Bellema (2025) *Company information*. Pretoria: Bellema (Fictional company creat
 * Easy to update and expand later.
 
 ---
+
+
