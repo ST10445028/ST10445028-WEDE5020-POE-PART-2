@@ -1,9 +1,10 @@
-# ST10445028 TLOTLANG GALALETSANG RAMATLOTLO DMT2 G1 R-WEDE5020-POE-PART-1
+# ST10445028 TLOTLANG GALALETSANG RAMATLOTLO DMT2 G1 R-WEDE5020-POE-PART-2
 
 # Bellema Website
 
 This is the official website for **Bellema**, a fashion store based in Pretoria.
-The website is built using **basic HTML only**. No CSS or advanced styling has been added — it’s kept simple and clear.
+The website was initially built using **basic HTML only** in Part 1.
+For Part 2, **CSS styling and responsiveness** were introduced to improve usability and design.
 
 ---
 
@@ -18,10 +19,11 @@ The website is built using **basic HTML only**. No CSS or advanced styling has b
 
 * **Objectives**
 
-  * Build a working HTML-only website.
+  * Build a working HTML website styled with CSS.
   * Create pages for About, Services, Enquiry, Contact, Promotions, Personal Shopper, and Style Blog.
   * Add forms so customers can request items or send questions.
   * Add images and descriptions to showcase Bellema’s style and fashion.
+  * Make the website mobile responsive so it works across devices.
 
 ---
 
@@ -40,13 +42,28 @@ The website is built using **basic HTML only**. No CSS or advanced styling has b
 
 ---
 
-##  Folder Structure
+## Changelog (Part 2 Updates)
 
-```
+* Added **CSS file (`style.css`)** for design and layout.
+* Made **images mobile responsive** (`max-width: 100%; height: auto;`) to prevent horizontal scroll.
+* Styled **forms and inputs** for better usability.
+* Improved **navigation bar** by adding a class and responsive design.
+* Fixed large image issue on **Services page** (scaled correctly for mobile).
+* Added **Style Blog page** with structured articles and responsive images.
+* Ensured website is **mobile-friendly** with no horizontal scrolling.
+
+---
+
+## Folder Structure
+
 Bellema-Website/
+│
+├── css/
+│   └── style.css
 │
 └── images/
     ├── all images   
+│
 ├── index.html
 ├── about.html
 ├── services.html
@@ -55,11 +72,12 @@ Bellema-Website/
 ├── promotions.html
 ├── personal-shopper.html
 ├── style-blog.html
+└── README.md
 ```
 
 ---
 
-##  Reference List (Harvard Anglia Style)
+## Reference List 
 
 GitHub (n.d.) *Hello World - Getting started with GitHub*. Available at: [https://docs.github.com/](https://docs.github.com/) (Accessed: 27 August 2025).
 
@@ -74,7 +92,7 @@ Bellema (2025) *Company information*. Pretoria: Bellema (Fictional company creat
 ## Credits
 
 * Website created for **Bellema (Pretoria, South Africa)**.
-* Built in plain HTML, easy to update and expand later.
+* Built using HTML and CSS for responsiveness.
+* Easy to update and expand later.
 
 ---
-
