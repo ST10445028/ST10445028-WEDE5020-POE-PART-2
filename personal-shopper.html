@@ -3,28 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>Personal Shopper - Bellema</title>
 </head>
 <body>
-    <header>
-        <h1>Personal Shopper</h1>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="services.html">Services</a>
-            <a href="enquiry.html">Enquiry</a>
-            <a href="contact.html">Contact</a>
-            <a href="promotions.html">Promotions</a>
-            <a href="personal-shopper.html">Personal Shopper</a>
-            <a href="style-blog.html">Style Blog</a>
+    <header class="header">
+        <h1 class="logo">Personal Shopper</h1>
+        <nav class="nav">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="about.html" class="nav-link">About</a>
+            <a href="services.html" class="nav-link">Services</a>
+            <a href="enquiry.html" class="nav-link">Enquiry</a>
+            <a href="contact.html" class="nav-link">Contact</a>
+            <a href="promotions.html" class="nav-link">Promotions</a>
+            <a href="personal-shopper.html" class="nav-link">Personal Shopper</a>
+            <a href="style-blog.html" class="nav-link">Style Blog</a>
         </nav>
     </header>
-    <main>
-        <h2>Your Personal Shopping Experience</h2>
-        <p>At Bellema, we make shopping simple. Tell us what you’re looking for, and our team will help you find it. Once your items are ready, you simply come in, pay, and collect them at your convenience.</p>
+
+    <main class="content">
+        <h2 class="subtitle">Your Personal Shopping Experience</h2>
+        <p class="text">At Bellema, we make shopping simple. Tell us what you’re looking for, and our team will help you find it. Once your items are ready, you simply come in, pay, and collect them at your convenience.</p>
 
         <h3>How It Works</h3>
-        <ol>
+        <ol class="text">
             <li>Fill in the form with the items you want.</li>
             <li>Our team will check availability and prepare your order.</li>
             <li>We’ll notify you when your items are ready for collection.</li>
@@ -32,44 +34,35 @@
         </ol>
 
         <h3>Personal Shopper Request Form</h3>
-        <table>
-            <tr>
-                <td><label for="name">Full Name:</label></td>
-                <td><input type="text" id="name" name="name" required></td>
-            </tr>
-            <tr>
-                <td><label for="email">Email:</label></td>
-                <td><input type="email" id="email" name="email" required></td>
-            </tr>
-            <tr>
-                <td><label for="phone">Phone:</label></td>
-                <td><input type="text" id="phone" name="phone" required></td>
-            </tr>
-            <tr>
-                <td><label for="items">Items You Want:</label></td>
-                <td><textarea id="items" name="items" rows="4" cols="30" required></textarea></td>
-            </tr>
-            <tr>
-                <td colspan="2">&nbsp;</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td>
-                    <input type="submit" value="Submit">
-                    <input type="reset" value="Reset">
-                </td>
-            </tr>
-        </table>
+        <form class="personal-form">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone:</label>
+            <input type="text" id="phone" name="phone" required>
+
+            <label for="items">Items You Want:</label>
+            <textarea id="items" name="items" rows="4" required></textarea>
+
+            <div class="form-buttons">
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </div>
+        </form>
 
         <h3>Contact Details</h3>
-        <p>
+        <p class="text">
             Email: <a href="mailto:info@bellema.com">info@bellema.com</a><br>
             Phone: +12 (800) 123-4567<br>
             Address: Madiba St, Shop 324, Sammy Marks Square, Pretoria 0002
         </p>
     </main>
-    <footer>
-        <p>&copy; 2025 Bellema. All rights reserved.</p>
+
+    <footer class="footer">
+        <p class="footer-text">&copy; 2025 Bellema. All rights reserved.</p>
     </footer>
 </body>
 </html>

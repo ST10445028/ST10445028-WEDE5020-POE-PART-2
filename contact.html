@@ -3,60 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>Contact Us - Bellema</title>
 </head>
 <body>
-    <header>
-        <h1>Contact Us</h1>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="services.html">Services</a>
-            <a href="enquiry.html">Enquiry</a>
-            <a href="contact.html">Contact</a>
-            <a href="promotions.html">Promotions</a>
-            <a href="personal-shopper.html">Personal Shopper</a>
-            <a href="style-blog.html">Style Blog</a>
+    <header class="header">
+        <h1 class="logo">Contact Us</h1>
+        <nav class="nav">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="about.html" class="nav-link">About</a>
+            <a href="services.html" class="nav-link">Services</a>
+            <a href="enquiry.html" class="nav-link">Enquiry</a>
+            <a href="contact.html" class="nav-link">Contact</a>
+            <a href="promotions.html" class="nav-link">Promotions</a>
+            <a href="personal-shopper.html" class="nav-link">Personal Shopper</a>
+            <a href="style-blog.html" class="nav-link">Style Blog</a>
         </nav>
     </header>
-    <main>
-        <h2>Get in Touch</h2>
-        <img src="images/contact-image.jpg">
-        <p>If you have any questions or feedback, please feel free to reach out to us:</p>
-     <table>
-    <tr>
-        <td><label for="name">Name:</label></td>
-        <td><input type="text" id="name" name="name" required></td>
-    </tr>
-    <tr>
-        <td><label for="email">Email:</label></td>
-        <td><input type="email" id="email" name="email" required></td>
-    </tr>
-    <tr>
-        <td><label for="message">Message:</label></td>
-        <td><input type="text" id="message" name="message" required></td>
-    </tr>
-    <tr>
-        <td colspan="2">&nbsp;</td>
-    </tr>
-    <tr>
-        <td></td>
-        <td>
-            <input type="submit" value="Submit">
-            <input type="reset" value="Reset">
-        </td>
-    </tr>
-</table>
 
-        <h2>Contact Details</h2>
-        <p>
+    <main class="content">
+        <h2 class="subtitle">Get in Touch</h2>
+        <img src="images/contact-image.jpg" alt="Contact Bellema" class="contact-img">
+        <p class="text">If you have any questions or feedback, please feel free to reach out to us:</p>
+
+        <form class="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <div class="form-buttons">
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </div>
+        </form>
+
+        <h2 class="subtitle">Contact Details</h2>
+        <p class="text">
             Email: <a href="mailto:info@bellema.com">info@bellema.com</a><br>
             Phone: +12 (800) 123-4567<br>
             Address: Madiba St, Shop 324, Sammy Marks Square, Pretoria 0002
         </p>
     </main>
-    <footer>
-        <p>&copy; 2025 Bellema. All rights reserved.</p>
+
+    <footer class="footer">
+        <p class="footer-text">&copy; 2025 Bellema. All rights reserved.</p>
     </footer>
 </body>
 </html>
